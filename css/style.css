@@ -1,0 +1,34 @@
+@keyframes slideright {
+    from {
+        background-position: 70000%;
+    }
+    to {
+        background-position: 0%;
+    }
+}
+
+#desert {
+    position: absolute;
+    top: 50px;
+    background-image: url("../images/t-rex-background.png");
+    height: 200px;
+    width: 100%;
+    animation: slideright 1400s infinite linear;
+    bottom: 0;
+}
+
+.dino {
+    background-image: url("../images/t-rex.png");
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+}
+
+.obstacle {
+    background-image: url("../images/cacti.png");
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+}
